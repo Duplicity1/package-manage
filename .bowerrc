@@ -1,0 +1,9 @@
+{
+  "directory" : "src/main/resources/static/bower_components",
+  "registry": {
+    "search": [
+      "http://192.168.100.133:8081/repository/fxbower/"
+    ]
+  },
+  "resolvers" : [ "bower-nexus3-resolver" ]
+}

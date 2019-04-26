@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mchange:mchange-commons-java:0.2.9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/mchange/mchange-commons-java/0.2.9/mchange-commons-java-0.2.9.jar!/" />
+      <root url="jar://D:/gradle/repository/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.9/ed96deee1a111b5d0dabc5d792c2ec3ee8f027c1/mchange-commons-java-0.2.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/gradle/repository/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.9/d83c010952f36ddb2493d3ea22ed34c6dd978789/mchange-commons-java-0.2.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

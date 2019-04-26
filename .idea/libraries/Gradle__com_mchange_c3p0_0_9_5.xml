@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mchange:c3p0:0.9.5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5/c3p0-0.9.5.jar!/" />
+      <root url="jar://D:/gradle/repository/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5/d34484de29ccc7d21ceb719660c740f967edb38a/c3p0-0.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/gradle/repository/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5/c8e8c2b5656e87e8c2769648e7d551854d1a8b55/c3p0-0.9.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

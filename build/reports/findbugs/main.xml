@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1556106801756" analysisTimestamp="1556106801816" release="">
+  <Project projectName="">
+    <Jar>C:\Users\fx\Desktop\upgradeServer\build\classes\java\main</Jar>
+    <AuxClasspathEntry>C:\Users\fx\.m2\repository\com\dm\Dm7JdbcDriver\17\Dm7JdbcDriver-17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\fx\.m2\repository\junit\junit\4.12\junit-4.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\fx\.m2\repository\com\alibaba\fastjson\1.2.7\fastjson-1.2.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-web\1.5.6.RELEASE\6f47b0a9e7e39b46b9e66ebdd2bff1c7edee5930\spring-boot-starter-web-1.5.6.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\io.jsonwebtoken\jjwt\0.7.0\f042fe2676bfdc2091545152e47d77e11999946d\jjwt-0.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-aop\1.5.6.RELEASE\6a617e698827e5a123a4a0aa2192d3854908acbe\spring-boot-starter-aop-1.5.6.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-jdbc\1.5.6.RELEASE\a2628fded329869fcdb812d7524d03376f4f64ed\spring-boot-starter-jdbc-1.5.6.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\com.mchange\c3p0\0.9.5\d34484de29ccc7d21ceb719660c740f967edb38a\c3p0-0.9.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\fx\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\1.5.6.RELEASE\58c72d105fdf41f605c15c243b72300fa78cccd1\spring-boot-starter-1.5.6.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-tomcat\1.5.6.RELEASE\1d0960e91dfdad2b6b82700ba1613c006355669\spring-boot-starter-tomcat-1.5.6.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.hibernate\hibernate-validator\5.3.5.Final\622a9bcef2eed6d41b5b8e0662c36212009e375\hibernate-validator-5.3.5.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.8.9\4dfca3975be3c1a98eacb829e70f02e9a71bc159\jackson-databind-2.8.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-webmvc\4.3.10.RELEASE\6809017a5a76bdaf1957f1cc0a892d448fc6f3df\spring-webmvc-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-web\4.3.10.RELEASE\6344501cb03cb4787c67cf3f820a471e07b9203b\spring-web-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\1.5.6.RELEASE\436d14480a4ebeaca7cd223ab97790d515f46ad2\spring-boot-autoconfigure-1.5.6.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\1.5.6.RELEASE\a6e13da038c6eb8b8793795b3189d5ff3f39caa0\spring-boot-1.5.6.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-context\4.3.10.RELEASE\645ce6fdba38448d183a1374506fc24036009869\spring-context-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-aop\4.3.10.RELEASE\3a8c23246045e5e1dbd7d91354741b165e997a88\spring-aop-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.aspectj\aspectjweaver\1.8.10\e198c5fee28988c355f74e06461614eae36b2032\aspectjweaver-1.8.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.apache.tomcat\tomcat-jdbc\8.5.16\c4b7a82f4f4276f0c76e9db11fb2653e6582bfb3\tomcat-jdbc-8.5.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-jdbc\4.3.10.RELEASE\91e2f69e633f8eac5d5ef516595556ab7db87f3d\spring-jdbc-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\com.mchange\mchange-commons-java\0.2.9\ed96deee1a111b5d0dabc5d792c2ec3ee8f027c1\mchange-commons-java-0.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-logging\1.5.6.RELEASE\74a50fb623c47d76c71402d8c6cc4ac4ba71d39e\spring-boot-starter-logging-1.5.6.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-tx\4.3.10.RELEASE\569d30fd8d2050910e0271b838cf927ebb7efcdc\spring-tx-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-beans\4.3.10.RELEASE\9d89b786f755f9b1da344f10f6f045f927679a72\spring-beans-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-expression\4.3.10.RELEASE\4975ab542028945ab98fefba772472a40495d7ca\spring-expression-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.springframework\spring-core\4.3.10.RELEASE\db1462df62dbedad7244da30ec471390660271c0\spring-core-4.3.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.17\7a27ea250c5130b2922b86dea63cbb1cc10a660c\snakeyaml-1.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-websocket\8.5.16\8df572a6fa38c24a6366ab254b9bde496ed5ea95\tomcat-embed-websocket-8.5.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-core\8.5.16\1318c2a44de53b692cb42021dc3d9a2a185e65a4\tomcat-embed-core-8.5.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-el\8.5.16\d8d33b26d42c3857c6d2a566dd842d2308582020\tomcat-embed-el-8.5.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\fx\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\fx\.m2\repository\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.1\2ad2fd09dcf5607ca96f8ef432096a96986c40a\classmate-1.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.apache.tomcat\tomcat-juli\8.5.16\e9e65481ee92eaf7dace280320f28139d485c958\tomcat-juli-8.5.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.1.11\ccedfbacef4a6515d2983e3f89ed753d5d4fb665\logback-classic-1.1.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.slf4j\jcl-over-slf4j\1.7.25\f8c32b13ff142a513eeb5b6330b1588dcb2c0461\jcl-over-slf4j-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\1.7.25\af5364cd6679bfffb114f0dec8a157aaa283b76\jul-to-slf4j-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.slf4j\log4j-over-slf4j\1.7.25\a87bb47468f47ee7aabbd54f93e133d4215769c3\log4j-over-slf4j-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\fx\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.1.11\88b8df40340eed549fb07e2613879bf6b006704d\logback-core-1.1.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.8.0\45b426f7796b741035581a176744d91090e2e6fb\jackson-annotations-2.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle\repository\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.8.9\569b1752705da98f49aabe2911cc956ff7d8ed9d\jackson-core-2.8.9.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\Application.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\bean\IpInfo.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\bean\PackageInfo.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\bean\ProductType.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\bean\TableData.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\controller\DownloadController.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\controller\LoginController.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\controller\MainController.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\dao\impl\UpgradePackageDownloadDaoImpl.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\dao\impl\UpgradePackageInfoDaoImpl.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\dao\impl\UpgradePackageUploadDaoImpl.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\dao\UpgradePackageDownloadDao.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\dao\UpgradePackageInfoDao.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\dao\UpgradePackageUploadDao.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\Node.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\service\DownloadService.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\service\impl\DownloadServiceImpl.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\service\impl\LoginServiceImpl.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\service\impl\MainServiceImpl.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\service\LoginService.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\service\MainService.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\AlterIPUtil.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\Base64Utils.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\DateDeserializerUtil.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\DateSerializerUtil.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\DateUtils.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\HttpsClientRequestFactory.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\ImageCode.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\RequestBodyUtil.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\ResourceEnum.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\RestResponse.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\RestTemplateUtil.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\ResultVo.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\StringUtils.java</SrcDir>
+    <SrcDir>C:\Users\fx\Desktop\upgradeServer\src\main\java\com\fxdigital\utils\UserAgentUtil.java</SrcDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.fxdigital.bean.PackageInfo">
+      <SourceLine classname="com.fxdigital.bean.PackageInfo" start="13" end="103" sourcefile="PackageInfo.java" sourcepath="com/fxdigital/bean/PackageInfo.java"/>
+    </Class>
+    <Method classname="com.fxdigital.bean.PackageInfo" name="getUploadTime" signature="()Ljava/sql/Timestamp;" isStatic="false">
+      <SourceLine classname="com.fxdigital.bean.PackageInfo" start="66" end="66" startBytecode="0" endBytecode="46" sourcefile="PackageInfo.java" sourcepath="com/fxdigital/bean/PackageInfo.java"/>
+    </Method>
+    <Field classname="com.fxdigital.bean.PackageInfo" name="uploadTime" signature="Ljava/sql/Timestamp;" isStatic="false">
+      <SourceLine classname="com.fxdigital.bean.PackageInfo" sourcefile="PackageInfo.java" sourcepath="com/fxdigital/bean/PackageInfo.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.bean.PackageInfo" start="66" end="66" startBytecode="4" endBytecode="4" sourcefile="PackageInfo.java" sourcepath="com/fxdigital/bean/PackageInfo.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.fxdigital.bean.PackageInfo">
+      <SourceLine classname="com.fxdigital.bean.PackageInfo" start="13" end="103" sourcefile="PackageInfo.java" sourcepath="com/fxdigital/bean/PackageInfo.java"/>
+    </Class>
+    <Method classname="com.fxdigital.bean.PackageInfo" name="setUploadTime" signature="(Ljava/sql/Timestamp;)V" isStatic="false">
+      <SourceLine classname="com.fxdigital.bean.PackageInfo" start="70" end="72" startBytecode="0" endBytecode="82" sourcefile="PackageInfo.java" sourcepath="com/fxdigital/bean/PackageInfo.java"/>
+    </Method>
+    <Field classname="com.fxdigital.bean.PackageInfo" name="uploadTime" signature="Ljava/sql/Timestamp;" isStatic="false">
+      <SourceLine classname="com.fxdigital.bean.PackageInfo" sourcefile="PackageInfo.java" sourcepath="com/fxdigital/bean/PackageInfo.java"/>
+    </Field>
+    <LocalVariable name="uploadTime" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.fxdigital.bean.PackageInfo" start="70" end="70" startBytecode="2" endBytecode="2" sourcefile="PackageInfo.java" sourcepath="com/fxdigital/bean/PackageInfo.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.fxdigital.controller.MainController">
+      <SourceLine classname="com.fxdigital.controller.MainController" start="23" end="84" sourcefile="MainController.java" sourcepath="com/fxdigital/controller/MainController.java"/>
+    </Class>
+    <Method classname="com.fxdigital.controller.MainController" name="UpgradePackageUpload" signature="(Lorg/springframework/web/multipart/MultipartFile;Ljava/lang/String;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.fxdigital.controller.MainController" start="73" end="84" startBytecode="0" endBytecode="290" sourcefile="MainController.java" sourcepath="com/fxdigital/controller/MainController.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.fxdigital.service.impl.DownloadServiceImpl">
+      <SourceLine classname="com.fxdigital.service.impl.DownloadServiceImpl" start="15" end="16" sourcefile="DownloadServiceImpl.java" sourcepath="com/fxdigital/service/impl/DownloadServiceImpl.java"/>
+    </Class>
+    <Field classname="com.fxdigital.service.impl.DownloadServiceImpl" name="log" signature="Lorg/slf4j/Logger;" isStatic="false">
+      <SourceLine classname="com.fxdigital.service.impl.DownloadServiceImpl" sourcefile="DownloadServiceImpl.java" sourcepath="com/fxdigital/service/impl/DownloadServiceImpl.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.service.impl.DownloadServiceImpl" start="16" end="16" startBytecode="12" endBytecode="12" sourcefile="DownloadServiceImpl.java" sourcepath="com/fxdigital/service/impl/DownloadServiceImpl.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.fxdigital.service.impl.MainServiceImpl">
+      <SourceLine classname="com.fxdigital.service.impl.MainServiceImpl" start="30" end="182" sourcefile="MainServiceImpl.java" sourcepath="com/fxdigital/service/impl/MainServiceImpl.java"/>
+    </Class>
+    <Method classname="com.fxdigital.service.impl.MainServiceImpl" name="UpgradePackageUpload" signature="(Lorg/springframework/web/multipart/MultipartFile;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.fxdigital.service.impl.MainServiceImpl" start="114" end="182" startBytecode="0" endBytecode="990" sourcefile="MainServiceImpl.java" sourcepath="com/fxdigital/service/impl/MainServiceImpl.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.fxdigital.service.impl.MainServiceImpl">
+      <SourceLine classname="com.fxdigital.service.impl.MainServiceImpl" start="30" end="182" sourcefile="MainServiceImpl.java" sourcepath="com/fxdigital/service/impl/MainServiceImpl.java"/>
+    </Class>
+    <Method classname="com.fxdigital.service.impl.MainServiceImpl" name="UpgradePackageUpload" signature="(Lorg/springframework/web/multipart/MultipartFile;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.fxdigital.service.impl.MainServiceImpl" start="114" end="182" startBytecode="0" endBytecode="990" sourcefile="MainServiceImpl.java" sourcepath="com/fxdigital/service/impl/MainServiceImpl.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1340" end="1354" startBytecode="0" endBytecode="182" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.fxdigital.service.impl.MainServiceImpl" start="157" end="157" startBytecode="285" endBytecode="285" sourcefile="MainServiceImpl.java" sourcepath="com/fxdigital/service/impl/MainServiceImpl.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.fxdigital.utils.AlterIPUtil">
+      <SourceLine classname="com.fxdigital.utils.AlterIPUtil" start="15" end="304" sourcefile="AlterIPUtil.java" sourcepath="com/fxdigital/utils/AlterIPUtil.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.AlterIPUtil" name="isExistPrefix" signature="()V" isStatic="false">
+      <SourceLine classname="com.fxdigital.utils.AlterIPUtil" start="204" end="252" startBytecode="0" endBytecode="152" sourcefile="AlterIPUtil.java" sourcepath="com/fxdigital/utils/AlterIPUtil.java"/>
+    </Method>
+    <LocalVariable name="listName" register="1" pc="18" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.fxdigital.utils.AlterIPUtil" start="205" end="205" startBytecode="17" endBytecode="17" sourcefile="AlterIPUtil.java" sourcepath="com/fxdigital/utils/AlterIPUtil.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="listName"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Field classname="com.fxdigital.utils.DateUtils" name="ptn_yyyyMMdd" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="27" end="27" startBytecode="79" endBytecode="79" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Field classname="com.fxdigital.utils.DateUtils" name="ptn_yyyyMMdd_HHmmss" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="25" end="25" startBytecode="74" endBytecode="74" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getDaySub" signature="(Ljava/lang/String;Ljava/lang/String;)J" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="261" end="275" startBytecode="0" endBytecode="247" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <LocalVariable name="beginDate" register="5" pc="21" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="272" end="272" startBytecode="52" endBytecode="52" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="263" end="263" startBytecode="13" endBytecode="13" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="267" end="267" startBytecode="22" endBytecode="22" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getDaySub" signature="(Ljava/lang/String;Ljava/lang/String;)J" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="261" end="275" startBytecode="0" endBytecode="247" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <LocalVariable name="endDate" register="6" pc="35" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="272" end="272" startBytecode="47" endBytecode="47" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="264" end="264" startBytecode="16" endBytecode="16" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="269" end="269" startBytecode="38" endBytecode="38" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="270" end="270" startBytecode="42" endBytecode="42" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getDateBySpecifiedDays" signature="(I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="394" end="397" startBytecode="0" endBytecode="80" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfTime" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="397" end="397" startBytecode="17" endBytecode="17" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getDateBySpecifiedMonths" signature="(I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="410" end="413" startBytecode="0" endBytecode="80" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfTime" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="413" end="413" startBytecode="17" endBytecode="17" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getDay" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="89" end="89" startBytecode="0" endBytecode="37" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfDay" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="89" end="89" startBytecode="10" endBytecode="10" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getDay" signature="(J)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="93" end="93" startBytecode="0" endBytecode="56" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfDay" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="93" end="93" startBytecode="11" endBytecode="11" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getDays" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="102" end="102" startBytecode="0" endBytecode="37" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfDays" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="102" end="102" startBytecode="10" endBytecode="10" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getMonth" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="80" end="80" startBytecode="0" endBytecode="37" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfMonth" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="80" end="80" startBytecode="10" endBytecode="10" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getSix" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="62" end="62" startBytecode="0" endBytecode="37" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="SDFSIX" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="62" end="62" startBytecode="10" endBytecode="10" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getTime" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="111" end="111" startBytecode="0" endBytecode="37" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfTime" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="111" end="111" startBytecode="10" endBytecode="10" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getTime" signature="(J)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="115" end="115" startBytecode="0" endBytecode="56" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfTime" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="115" end="115" startBytecode="11" endBytecode="11" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="getYear" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="71" end="71" startBytecode="0" endBytecode="37" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfYear" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="71" end="71" startBytecode="10" endBytecode="10" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="resultTimeByAddDay" signature="(Ljava/util/Date;I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="504" end="507" startBytecode="0" endBytecode="99" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfTime" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="507" end="507" startBytecode="22" endBytecode="22" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="resultTimeByAddMins" signature="(Ljava/util/Date;I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="488" end="491" startBytecode="0" endBytecode="100" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfTime" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="491" end="491" startBytecode="23" endBytecode="23" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <BugInstance type="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE" priority="2" rank="8" abbrev="STCAL" category="MT_CORRECTNESS">
+    <Class classname="com.fxdigital.utils.DateUtils">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="13" end="515" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Class>
+    <Method classname="com.fxdigital.utils.DateUtils" name="resultTimeByAddSecs" signature="(Ljava/util/Date;I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" start="472" end="475" startBytecode="0" endBytecode="100" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Method>
+    <Method classname="java.text.SimpleDateFormat" name="format" signature="(Ljava/util/Date;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.text.SimpleDateFormat" sourcefile="SimpleDateFormat.java" sourcepath="java/text/SimpleDateFormat.java"/>
+    </Method>
+    <Field classname="com.fxdigital.utils.DateUtils" name="sdfTime" signature="Ljava/text/SimpleDateFormat;" isStatic="true">
+      <SourceLine classname="com.fxdigital.utils.DateUtils" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+    </Field>
+    <SourceLine classname="com.fxdigital.utils.DateUtils" start="475" end="475" startBytecode="23" endBytecode="23" sourcefile="DateUtils.java" sourcepath="com/fxdigital/utils/DateUtils.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 24 Apr 2019 19:53:21 +0800" total_classes="42" referenced_classes="288" total_bugs="24" total_size="1413" num_packages="8" java_version="1.8.0_102" vm_version="25.102-b14" cpu_seconds="15.82" clock_seconds="3.59" peak_mbytes="316.58" alloc_mbytes="1790.50" gc_seconds="0.26" priority_2="22" priority_1="2">
+    <PackageStats package="com.fxdigital" total_bugs="0" total_types="3" total_size="59">
+      <ClassStats class="com.fxdigital.Application" sourceFile="Application.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="com.fxdigital.Application$1" sourceFile="Application.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.fxdigital.Node" sourceFile="Node.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.fxdigital.bean" total_bugs="2" total_types="4" total_size="121" priority_2="2">
+      <ClassStats class="com.fxdigital.bean.IpInfo" sourceFile="IpInfo.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="com.fxdigital.bean.PackageInfo" sourceFile="PackageInfo.java" interface="false" size="64" bugs="2" priority_2="2"/>
+      <ClassStats class="com.fxdigital.bean.ProductType" sourceFile="ProductType.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.fxdigital.bean.TableData" sourceFile="TableData.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.fxdigital.controller" total_bugs="1" total_types="3" total_size="56" priority_2="1">
+      <ClassStats class="com.fxdigital.controller.DownloadController" sourceFile="DownloadController.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.fxdigital.controller.LoginController" sourceFile="LoginController.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.fxdigital.controller.MainController" sourceFile="MainController.java" interface="false" size="41" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.fxdigital.dao" total_bugs="0" total_types="3" total_size="15">
+      <ClassStats class="com.fxdigital.dao.UpgradePackageDownloadDao" sourceFile="UpgradePackageDownloadDao.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.fxdigital.dao.UpgradePackageInfoDao" sourceFile="UpgradePackageInfoDao.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="com.fxdigital.dao.UpgradePackageUploadDao" sourceFile="UpgradePackageUploadDao.java" interface="true" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.fxdigital.dao.impl" total_bugs="0" total_types="3" total_size="138">
+      <ClassStats class="com.fxdigital.dao.impl.UpgradePackageDownloadDaoImpl" sourceFile="UpgradePackageDownloadDaoImpl.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.fxdigital.dao.impl.UpgradePackageInfoDaoImpl" sourceFile="UpgradePackageInfoDaoImpl.java" interface="false" size="73" bugs="0"/>
+      <ClassStats class="com.fxdigital.dao.impl.UpgradePackageUploadDaoImpl" sourceFile="UpgradePackageUploadDaoImpl.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.fxdigital.service" total_bugs="0" total_types="3" total_size="9">
+      <ClassStats class="com.fxdigital.service.DownloadService" sourceFile="DownloadService.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="com.fxdigital.service.LoginService" sourceFile="LoginService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.fxdigital.service.MainService" sourceFile="MainService.java" interface="true" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.fxdigital.service.impl" total_bugs="3" total_types="3" total_size="154" priority_2="3">
+      <ClassStats class="com.fxdigital.service.impl.DownloadServiceImpl" sourceFile="DownloadServiceImpl.java" interface="false" size="5" bugs="1" priority_2="1"/>
+      <ClassStats class="com.fxdigital.service.impl.LoginServiceImpl" sourceFile="LoginServiceImpl.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="com.fxdigital.service.impl.MainServiceImpl" sourceFile="MainServiceImpl.java" interface="false" size="102" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="com.fxdigital.utils" total_bugs="18" total_types="20" total_size="861" priority_2="16" priority_1="2">
+      <ClassStats class="com.fxdigital.utils.AlterIPUtil" sourceFile="AlterIPUtil.java" interface="false" size="173" bugs="1" priority_2="1"/>
+      <ClassStats class="com.fxdigital.utils.Base64Utils" sourceFile="Base64Utils.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.DateDeserializerUtil" sourceFile="DateDeserializerUtil.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.DateSerializerUtil" sourceFile="DateSerializerUtil.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.DateUtils" sourceFile="DateUtils.java" interface="false" size="188" bugs="17" priority_2="15" priority_1="2"/>
+      <ClassStats class="com.fxdigital.utils.HttpsClientRequestFactory" sourceFile="HttpsClientRequestFactory.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.HttpsClientRequestFactory$1" sourceFile="HttpsClientRequestFactory.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.HttpsClientRequestFactory$2" sourceFile="HttpsClientRequestFactory.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.HttpsClientRequestFactory$MyCustomSSLSocketFactory" sourceFile="HttpsClientRequestFactory.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.ImageCode" sourceFile="ImageCode.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.RequestBodyUtil" sourceFile="RequestBodyUtil.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.ResourceEnum" sourceFile="ResourceEnum.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.ResourceEnum$INTERFACE_URL" sourceFile="ResourceEnum.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.ResourceEnum$USER_TYPE" sourceFile="ResourceEnum.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.RestResponse" sourceFile="RestResponse.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.RestResponse$CODE" sourceFile="RestResponse.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.RestTemplateUtil" sourceFile="RestTemplateUtil.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.ResultVo" sourceFile="ResultVo.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.StringUtils" sourceFile="StringUtils.java" interface="false" size="80" bugs="0"/>
+      <ClassStats class="com.fxdigital.utils.UserAgentUtil" sourceFile="UserAgentUtil.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="494" invocations="1686" avgMicrosecondsPerInvocation="293" maxMicrosecondsPerInvocation="11262" standardDeviationMircosecondsPerInvocation="389"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="371" invocations="1673" avgMicrosecondsPerInvocation="221" maxMicrosecondsPerInvocation="30265" standardDeviationMircosecondsPerInvocation="869"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteLoop" totalMilliseconds="198" invocations="42" avgMicrosecondsPerInvocation="4718" maxMicrosecondsPerInvocation="193720" standardDeviationMircosecondsPerInvocation="29517"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="186" invocations="288" avgMicrosecondsPerInvocation="645" maxMicrosecondsPerInvocation="10913" standardDeviationMircosecondsPerInvocation="1176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="180" invocations="288" avgMicrosecondsPerInvocation="626" maxMicrosecondsPerInvocation="9684" standardDeviationMircosecondsPerInvocation="1156"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="131" invocations="812" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="4947" standardDeviationMircosecondsPerInvocation="327"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="114" invocations="246" avgMicrosecondsPerInvocation="465" maxMicrosecondsPerInvocation="37519" standardDeviationMircosecondsPerInvocation="2511"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="76" invocations="288" avgMicrosecondsPerInvocation="266" maxMicrosecondsPerInvocation="39161" standardDeviationMircosecondsPerInvocation="2338"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="74" invocations="238" avgMicrosecondsPerInvocation="313" maxMicrosecondsPerInvocation="5461" standardDeviationMircosecondsPerInvocation="701"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="72" invocations="236" avgMicrosecondsPerInvocation="309" maxMicrosecondsPerInvocation="3587" standardDeviationMircosecondsPerInvocation="561"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="67" invocations="247" avgMicrosecondsPerInvocation="274" maxMicrosecondsPerInvocation="6618" standardDeviationMircosecondsPerInvocation="682"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="62" invocations="420" avgMicrosecondsPerInvocation="148" maxMicrosecondsPerInvocation="9371" standardDeviationMircosecondsPerInvocation="487"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="56" invocations="238" avgMicrosecondsPerInvocation="235" maxMicrosecondsPerInvocation="7367" standardDeviationMircosecondsPerInvocation="547"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="54" invocations="238" avgMicrosecondsPerInvocation="229" maxMicrosecondsPerInvocation="3841" standardDeviationMircosecondsPerInvocation="490"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="49" invocations="288" avgMicrosecondsPerInvocation="173" maxMicrosecondsPerInvocation="3609" standardDeviationMircosecondsPerInvocation="322"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="45" invocations="179" avgMicrosecondsPerInvocation="252" maxMicrosecondsPerInvocation="4754" standardDeviationMircosecondsPerInvocation="610"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="44" invocations="288" avgMicrosecondsPerInvocation="155" maxMicrosecondsPerInvocation="3458" standardDeviationMircosecondsPerInvocation="378"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="43" invocations="1624" avgMicrosecondsPerInvocation="26" maxMicrosecondsPerInvocation="533" standardDeviationMircosecondsPerInvocation="45"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

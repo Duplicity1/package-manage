@@ -1,0 +1,298 @@
+10:58:38.910 [main] INFO  com.fxdigital.Application - Starting Application on fx-PC with PID 7664 (C:\Users\fx\Desktop\upgradeServer\out\production\classes started by fx in C:\Users\fx\Desktop\upgradeServer)
+10:58:38.912 [main] INFO  com.fxdigital.Application - No active profile set, falling back to default profiles: default
+10:58:38.953 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 10:58:38 CST 2019]; root of context hierarchy
+10:58:39.237 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+10:58:40.305 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 845 (https) 6061 (http)
+10:58:40.314 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:58:40.315 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+10:58:40.452 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:58:40.452 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1499 ms
+10:58:40.681 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+10:58:40.699 [localhost-startStop-1] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5 [built 02-January-2015 13:25:04 -0500; debug? true; trace: 10]
+10:58:40.967 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:58:40.967 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:58:40.967 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:58:40.967 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:58:40.968 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+10:58:40.968 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'loginFilter' to: [/*]
+10:58:40.968 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'JWTAuthenticationFilter' to: [/*]
+10:58:40.968 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+10:58:41.203 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/serverNetInfo],methods=[POST]}" onto public com.fxdigital.utils.RestResponse<java.lang.String> com.fxdigital.controller.PowerRebootController.changeServerIp(com.fxdigital.bean.IpInfo)
+10:58:41.204 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/serverNetInfo],methods=[GET]}" onto public com.fxdigital.utils.RestResponse<com.fxdigital.bean.IpInfo> com.fxdigital.controller.PowerRebootController.getNodeInfo()
+10:58:41.204 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/powerReboot],methods=[POST]}" onto public com.fxdigital.utils.RestResponse<java.lang.String> com.fxdigital.controller.PowerRebootController.serverSetting()
+10:58:41.205 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/getStoreConfig],methods=[GET]}" onto public com.fxdigital.utils.RestResponse<com.fxdigital.bean.StoreConfig> com.fxdigital.controller.StoreConfigSettingController.getStoreConfig()
+10:58:41.205 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/setStoreConfig],methods=[POST]}" onto public com.fxdigital.utils.RestResponse<java.lang.String> com.fxdigital.controller.StoreConfigSettingController.setStoreConfig(com.fxdigital.bean.StoreConfig)
+10:58:41.206 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/storeInfo],methods=[GET]}" onto public com.fxdigital.utils.RestResponse<com.fxdigital.bean.StoreInfo> com.fxdigital.controller.StoreInfoSettingController.getStoreInfo()
+10:58:41.206 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/storeInfo],methods=[POST]}" onto public com.fxdigital.utils.RestResponse<java.lang.String> com.fxdigital.controller.StoreInfoSettingController.setStoreInfo(com.fxdigital.bean.StoreInfo)
+10:58:41.206 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/allCleanMethod],methods=[GET]}" onto public com.fxdigital.utils.RestResponse<java.util.List<com.fxdigital.bean.StoreDictInfo>> com.fxdigital.controller.StoreInfoSettingController.getAllCleanMethod()
+10:58:41.206 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/code/image]}" onto public void com.fxdigital.controller.ValidateController.createCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+10:58:41.209 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:58:41.209 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:58:41.255 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:58:41.255 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:58:41.275 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:58:41.279 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+10:58:41.304 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d6aca33, org.springframework.security.web.context.SecurityContextPersistenceFilter@6719a5b8, org.springframework.security.web.header.HeaderWriterFilter@c68a5f8, org.springframework.web.filter.CorsFilter@21ab988f, org.springframework.security.web.authentication.logout.LogoutFilter@3068b369, com.fxdigital.security.filter.JWTLoginFilter@44c7f4a8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@62ddd21b, com.fxdigital.security.filter.JWTAuthenticationFilter@b32bd79, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@796d3c9f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bc12da, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29314cc9, org.springframework.security.web.session.SessionManagementFilter@3aefae67, org.springframework.security.web.access.ExceptionTranslationFilter@2234078, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10ec523c]
+10:58:41.461 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 10:58:38 CST 2019]; root of context hierarchy
+10:58:41.818 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:58:41.838 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-845"]
+10:58:41.849 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-845"]
+10:58:42.152 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:58:42.162 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6061"]
+10:58:42.164 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:58:42.164 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6061"]
+10:58:42.172 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 845 (https) 6061 (http)
+10:58:42.175 [main] INFO  com.fxdigital.Application - Started Application in 3.469 seconds (JVM running for 4.335)
+10:59:07.813 [main] INFO  com.fxdigital.Application - Starting Application on fx-PC with PID 7840 (C:\Users\fx\Desktop\upgradeServer\out\production\classes started by fx in C:\Users\fx\Desktop\upgradeServer)
+10:59:07.903 [main] INFO  com.fxdigital.Application - No active profile set, falling back to default profiles: default
+10:59:07.958 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 10:59:07 CST 2019]; root of context hierarchy
+10:59:08.080 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+10:59:09.209 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 845 (https) 6061 (http)
+10:59:09.217 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:59:09.218 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+10:59:09.299 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:59:09.300 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1342 ms
+10:59:09.532 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+10:59:09.550 [localhost-startStop-1] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5 [built 02-January-2015 13:25:04 -0500; debug? true; trace: 10]
+10:59:09.823 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:59:09.823 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:59:09.823 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:59:09.823 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:59:09.824 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+10:59:09.824 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'loginFilter' to: [/*]
+10:59:09.824 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'JWTAuthenticationFilter' to: [/*]
+10:59:09.824 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+10:59:10.009 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/powerReboot],methods=[POST]}" onto public com.fxdigital.utils.RestResponse<java.lang.String> com.fxdigital.controller.PowerRebootController.serverSetting()
+10:59:10.010 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/serverNetInfo],methods=[GET]}" onto public com.fxdigital.utils.RestResponse<com.fxdigital.bean.IpInfo> com.fxdigital.controller.PowerRebootController.getNodeInfo()
+10:59:10.010 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/serverNetInfo],methods=[POST]}" onto public com.fxdigital.utils.RestResponse<java.lang.String> com.fxdigital.controller.PowerRebootController.changeServerIp(com.fxdigital.bean.IpInfo)
+10:59:10.010 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/getStoreConfig],methods=[GET]}" onto public com.fxdigital.utils.RestResponse<com.fxdigital.bean.StoreConfig> com.fxdigital.controller.StoreConfigSettingController.getStoreConfig()
+10:59:10.011 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/setStoreConfig],methods=[POST]}" onto public com.fxdigital.utils.RestResponse<java.lang.String> com.fxdigital.controller.StoreConfigSettingController.setStoreConfig(com.fxdigital.bean.StoreConfig)
+10:59:10.011 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/allCleanMethod],methods=[GET]}" onto public com.fxdigital.utils.RestResponse<java.util.List<com.fxdigital.bean.StoreDictInfo>> com.fxdigital.controller.StoreInfoSettingController.getAllCleanMethod()
+10:59:10.011 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/storeInfo],methods=[GET]}" onto public com.fxdigital.utils.RestResponse<com.fxdigital.bean.StoreInfo> com.fxdigital.controller.StoreInfoSettingController.getStoreInfo()
+10:59:10.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/fxrest/v5/resources/storeInfo],methods=[POST]}" onto public com.fxdigital.utils.RestResponse<java.lang.String> com.fxdigital.controller.StoreInfoSettingController.setStoreInfo(com.fxdigital.bean.StoreInfo)
+10:59:10.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/code/image]}" onto public void com.fxdigital.controller.ValidateController.createCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+10:59:10.015 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:59:10.015 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:59:10.084 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:59:10.084 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:59:10.108 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:59:10.113 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+10:59:10.138 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9a7a808, org.springframework.security.web.context.SecurityContextPersistenceFilter@203dd56b, org.springframework.security.web.header.HeaderWriterFilter@60f2e0bd, org.springframework.web.filter.CorsFilter@72209d93, org.springframework.security.web.authentication.logout.LogoutFilter@1450078a, com.fxdigital.security.filter.JWTLoginFilter@2ecbfcd5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ff6077, com.fxdigital.security.filter.JWTAuthenticationFilter@30e2f666, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d64b553, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bc735b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2687f956, org.springframework.security.web.session.SessionManagementFilter@6b410923, org.springframework.security.web.access.ExceptionTranslationFilter@5a101b1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2abc224d]
+10:59:10.278 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 10:59:07 CST 2019]; root of context hierarchy
+10:59:10.586 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:59:10.603 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-845"]
+10:59:10.611 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-845"]
+10:59:10.926 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:59:10.934 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6061"]
+10:59:10.935 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:59:10.936 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6061"]
+10:59:10.942 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 845 (https) 6061 (http)
+10:59:10.945 [main] INFO  com.fxdigital.Application - Started Application in 3.454 seconds (JVM running for 3.913)
+10:59:24.901 [http-nio-6061-exec-1] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+12:59:11.779 [main] INFO  com.fxdigital.Application - Starting Application on fx-PC with PID 7500 (C:\Users\fx\Desktop\upgradeServer\out\production\classes started by fx in C:\Users\fx\Desktop\upgradeServer)
+12:59:11.793 [main] INFO  com.fxdigital.Application - No active profile set, falling back to default profiles: default
+12:59:11.863 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 12:59:11 CST 2019]; root of context hierarchy
+12:59:11.901 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fxdigital.Application]; nested exception is java.io.FileNotFoundException: class path resource [../../../../resource/application.properties] cannot be opened because it does not exist
+12:59:11.914 [main] ERROR o.s.b.f.s.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 12:59:11 CST 2019]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.fxdigital.Application.main(Application.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:59)
+12:59:11.932 [main] ERROR o.s.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fxdigital.Application]; nested exception is java.io.FileNotFoundException: class path resource [../../../../resource/application.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.fxdigital.Application.main(Application.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:59)
+Caused by: java.io.FileNotFoundException: class path resource [../../../../resource/application.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:154)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:65)
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:36)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:440)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 18 common frames omitted
+12:59:12.082 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+12:59:46.465 [main] INFO  com.fxdigital.Application - Starting Application on fx-PC with PID 9652 (C:\Users\fx\Desktop\upgradeServer\out\production\classes started by fx in C:\Users\fx\Desktop\upgradeServer)
+12:59:46.468 [main] INFO  com.fxdigital.Application - No active profile set, falling back to default profiles: default
+12:59:46.522 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 12:59:46 CST 2019]; root of context hierarchy
+12:59:46.566 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fxdigital.Application]; nested exception is java.io.FileNotFoundException: class path resource [C:/Users/fx/Desktop/upgradeServer/src/main/resources/application.properties] cannot be opened because it does not exist
+12:59:46.568 [main] ERROR o.s.b.f.s.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 12:59:46 CST 2019]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.fxdigital.Application.main(Application.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:59)
+12:59:46.576 [main] ERROR o.s.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fxdigital.Application]; nested exception is java.io.FileNotFoundException: class path resource [C:/Users/fx/Desktop/upgradeServer/src/main/resources/application.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.fxdigital.Application.main(Application.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:59)
+Caused by: java.io.FileNotFoundException: class path resource [C:/Users/fx/Desktop/upgradeServer/src/main/resources/application.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:154)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:65)
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:36)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:440)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 18 common frames omitted
+12:59:46.725 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+13:01:46.223 [main] INFO  com.fxdigital.Application - Starting Application on fx-PC with PID 1292 (C:\Users\fx\Desktop\upgradeServer\out\production\classes started by fx in C:\Users\fx\Desktop\upgradeServer)
+13:01:46.226 [main] INFO  com.fxdigital.Application - No active profile set, falling back to default profiles: default
+13:01:46.281 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 13:01:46 CST 2019]; root of context hierarchy
+13:01:46.372 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fxdigital.Application]; nested exception is java.io.FileNotFoundException: class path resource [C:/Users/fx/Desktop/upgradeServer/src/main/resources/application.properties] cannot be opened because it does not exist
+13:01:46.389 [main] ERROR o.s.b.f.s.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@229d10bd: startup date [Mon Apr 22 13:01:46 CST 2019]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.fxdigital.Application.main(Application.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:59)
+13:01:46.418 [main] ERROR o.s.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fxdigital.Application]; nested exception is java.io.FileNotFoundException: class path resource [C:/Users/fx/Desktop/upgradeServer/src/main/resources/application.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.fxdigital.Application.main(Application.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:59)
+Caused by: java.io.FileNotFoundException: class path resource [C:/Users/fx/Desktop/upgradeServer/src/main/resources/application.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:154)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:65)
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:36)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:440)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 18 common frames omitted
+13:01:46.435 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
